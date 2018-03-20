@@ -10,9 +10,17 @@ Copy contents to `~/Library/Developer/Xcode/Templates/File Templates/` directory
 
 ## Templates
 
+
+### Presenter(MVP)
+
+Template for presenter. 
+In MVP architecture each View has its own Presenter.
+
 ### Router
 
 Template for static routing. 
 Supposed to be used by calling `navigate(from:to:)` method from presenter (MVP architecture). 
+
+
 
 

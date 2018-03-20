@@ -16,7 +16,7 @@ class ___FILEBASENAME___ {
 		}
 
 		switch destination {
-		case <#destination#>:
+		case .<#destination#>:
 
 		}
 	}
