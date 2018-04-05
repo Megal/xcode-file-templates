@@ -6,7 +6,7 @@ Collection of XCode file templates that is common in MVP+ architecture.
 
 ## Usage
 
-Copy contents to `~/Library/Developer/Xcode/Templates/File Templates/` directory. After that this should immediately appear in your swift templates when creating a new file in XCode.
+Copy contents to `~/Library/Developer/Xcode/Templates/File\ Templates/` directory. After that this should immediately appear in your swift templates when creating a new file in XCode.
 
 ## Templates
 
