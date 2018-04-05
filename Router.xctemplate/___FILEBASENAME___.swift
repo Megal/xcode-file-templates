@@ -3,13 +3,15 @@
 import UIKit
 
 class ___FILEBASENAME___ {
-	fileprivate typealias `Self` = ___FILEBASENAME___
+	private typealias `Self` = ___FILEBASENAME___
 
 	enum Destination {
 		case <#destination#>
 	}
 
 	static func navigate(from source: Any, to destination: Destination) {
+		precondition(Thread.isMainThread)
+
 		guard let viewController = source as? UIViewController else {
 			Logger.error(.router, "Expected view controller, not \(type(of: source))")
 			return
@@ -23,7 +25,7 @@ class ___FILEBASENAME___ {
 
 }
 
-fileprivate extension ___FILEBASENAME___ {
+private extension ___FILEBASENAME___ {
 
 }
 

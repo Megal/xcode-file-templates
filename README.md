@@ -1,6 +1,6 @@
 # XCode File Templates
 
-[![Swift version](https://img.shields.io/badge/swift-3.2-green.svg)](#swift_version)
+[![Swift version](https://img.shields.io/badge/swift-4.0-green.svg)](#swift_version)
 
 Collection of XCode file templates that is common in MVP+ architecture.
 
