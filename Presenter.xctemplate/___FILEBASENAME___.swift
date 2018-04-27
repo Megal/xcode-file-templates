@@ -3,7 +3,7 @@
 class ___FILEBASENAME___Presenter {
 	private typealias `Self` = ___FILEBASENAME___Presenter
 
-	weak var view: ___FILEBASENAME___ViewProtocol?
+	private weak var view: ___FILEBASENAME___ViewProtocol?
 
 	init() { }
 
