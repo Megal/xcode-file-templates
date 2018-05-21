@@ -1,5 +1,8 @@
 //___FILEHEADER___
 
+
+// swiftlint:disable function_body_length
+
 import UIKit
 
 class ___FILEBASENAME___ {
