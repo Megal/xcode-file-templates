@@ -19,7 +19,7 @@ In MVP architecture each View has its own Presenter.
 ### Router
 
 Template for static routing. 
-Supposed to be used by calling `navigate(from:to:)` method from presenter (MVP architecture). 
+Supposed to be used by calling `navigate(to:)` method from presenter (MVP architecture). 
 
 
 
