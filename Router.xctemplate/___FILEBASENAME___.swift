@@ -1,24 +1,26 @@
 //___FILEHEADER___
 
-
-// swiftlint:disable function_body_length
-
 import UIKit
 
 class ___FILEBASENAME___ {
 	private typealias `Self` = ___FILEBASENAME___
+	private weak var viewController: UIViewController?
 
 	enum Destination {
 		case <#destination#>
 	}
 
-	static func navigate(from source: Any, to destination: Destination) {
-		precondition(Thread.isMainThread)
-
+	init(from source: Any) {
 		guard let viewController = source as? UIViewController else {
 			Logger.error(.router, "Expected view controller, not \(type(of: source))")
 			return
 		}
+
+		self.viewController = viewController
+	}
+
+	func navigate(to destination: Destination) {
+		precondition(Thread.isMainThread)
 
 		switch destination {
 		case .<#destination#>:
